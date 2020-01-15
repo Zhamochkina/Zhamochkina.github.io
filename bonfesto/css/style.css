@@ -1,0 +1,141 @@
+body {
+	min-width: 320px;
+	font-size: 15px;
+	font-family: 'HelveticaNeue-Light', Roboto, sans-serif;
+	color: #1d1813;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: #3c2f20;	
+	
+}
+
+a:hover {
+	text-decoration: none;
+}
+header h3 {
+	font-family: 'Exo 2', sans-serif;
+	font-size: 36px;
+	margin-top: 35px;
+	margin-bottom: 20px;
+	text-align: center;
+	color: #1d1813;
+}
+
+.nav-pills .nav-link {	
+	border-radius:  0;	
+	width: 150px;
+	height: 48px;
+	
+}
+
+.nav-item {
+	background-color:  #f5f3e8;	
+	margin-right: 5px;	
+}
+
+.nav-pills {
+	margin: auto; 
+}
+
+.nav-link {
+	padding: 0.6rem 1.9rem;
+	color: #b1a698;
+}
+
+.all-brends {
+	padding: 0.6rem 1.6rem;
+	color: #77716a;
+	font-size: 17px;
+
+}
+
+.villmonte {
+	padding: 0.7rem 1.5rem;	
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	background-color:  #8fb52c;
+}
+
+.nav-item img {
+	max-width: 90px;	
+}
+
+.grid-posts {
+	margin-top: 18px;
+}
+
+.card {
+	border: none;	
+}
+
+.card-img-top{
+	border-radius: 0;
+	
+}
+
+.card-body{
+	padding-left: 0;
+}
+
+.card-body .card-text {
+	color: #3c2f20;
+	margin-bottom: 0px;
+}
+
+.card-name{
+	font-family: 'Exo 2', sans-serif;
+	color: #3c2f20;
+}
+
+.card-title {	
+	font-size: 30px;
+	text-transform: uppercase;	
+	margin-bottom: 3px;
+}
+
+
+.card-p{
+	font-size: 20px; 
+	text-transform: lowercase;
+	
+}
+
+.underline {
+	text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: initial;
+}
+
+.btn {
+	background-color: #7db606;
+	border-color: #7db606;
+	margin-bottom: 10px;
+	border-radius:  0;	
+	width: 72px;
+	height: 24px;
+	padding: .25rem .75rem;
+}
+
+.btn:hover {
+	background-color: #7db606;
+	border-color: #7db606;
+}
+
+
+.btn-success img{
+	width: 46px;
+	height: 15px;
+	vertical-align: super;
+}
+
+.card-body p {
+	line-height: 20px;
+}
