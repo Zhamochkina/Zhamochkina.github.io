@@ -92,7 +92,7 @@ button:hover {
 }
 
 .services {
-	height: 1242px;
+	height: 950px;
 }
 
 .services p{
@@ -108,57 +108,97 @@ button:hover {
 	padding-bottom: 30px;
 }
 
+.img-ser:hover {
+	background: red; 
+}
+
+.about-us {
+	height: 844px;
+	background: #E5E5E5;
+}
+
+.clients {
+	height: 630px;
+}
+
+.reviews {
+	height: 900px;
+}
+
+.contacts {
+	height: 623px;
+}
+
+footer {
+	height: 110px;
+}
+
+
+
 
 @media only screen and (max-width : 1200px) {
-	
+	.services {
+	height: 870px;
+	}
 	.services img {
     max-width: 301px;
     padding-bottom: 23px;
-}
+	}
 
 }
 
 @media only screen and (max-width : 992px) {
-	
+	.services {
+	height: 740px;
+	} 
+
 	.services img {
 		width: 239px;
     padding-bottom: 17px;
-}
+	}
 }
 
 @media only screen and (max-width : 768px) {
 	
 	.services img {
     width: 262px;
-}
+	}
 
 }
 
 @media only screen and (max-width : 576px) {
-		.services h3 {
-			font-size: 34px;
-		}
 
-		.services img {
-		    width: 218px;
-		}
+	.services {
+    height: 656px;
+	}
+	.services h3 {
+		font-size: 34px;
+	}
 
-		.services .img-5,
-		.services .img-6 {
-			display: none;
-		}
+	.services img {
+	    width: 218px;
+	}
+
+	.services .img-5,
+	.services .img-6 {
+		display: none;
+	}
 
 		
 }
 
 @media only screen and (max-width : 460px) {
-		.services h3 {
-	    font-size: 27px;
+
+	.services {
+    height: 526px;
 	}
-					.services img {
-		    width: 153px;
-		}
+	.services h3 {
+    font-size: 27px;
 	}
+	.services img {
+	width: 153px;
+	}
+}
 
 @media only screen and (max-width : 320px) {
 	
