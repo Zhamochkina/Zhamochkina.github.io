@@ -139,12 +139,26 @@ button:hover {
 			font-size: 34px;
 		}
 
+		.services img {
+		    width: 218px;
+		}
+
+		.services .img-5,
+		.services .img-6 {
+			display: none;
+		}
+
+		
 }
 
 @media only screen and (max-width : 460px) {
-	
-
-}
+		.services h3 {
+	    font-size: 27px;
+	}
+					.services img {
+		    width: 153px;
+		}
+	}
 
 @media only screen and (max-width : 320px) {
 	
