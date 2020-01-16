@@ -104,7 +104,49 @@ button:hover {
 }
 
 .services img {
-	max-width: 360px;
+	width: 360px;
 	padding-bottom: 30px;
 }
 
+
+@media only screen and (max-width : 1200px) {
+	
+	.services img {
+    max-width: 301px;
+    padding-bottom: 23px;
+}
+
+}
+
+@media only screen and (max-width : 992px) {
+	
+	.services img {
+		width: 239px;
+    padding-bottom: 17px;
+}
+}
+
+@media only screen and (max-width : 768px) {
+	
+	.services img {
+    width: 262px;
+}
+
+}
+
+@media only screen and (max-width : 576px) {
+		.services h3 {
+			font-size: 34px;
+		}
+
+}
+
+@media only screen and (max-width : 460px) {
+	
+
+}
+
+@media only screen and (max-width : 320px) {
+	
+
+}
