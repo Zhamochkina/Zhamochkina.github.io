@@ -18,7 +18,7 @@ h3 {
 }
 
 img {
-	max-width: 100%;
+	width: 100%;
 	height: auto;
 }
 
@@ -35,6 +35,7 @@ button {
 	width: 270px;
 	height: 60px;
 	color: #FFF;
+	border: none;
 }
 
 button:hover {
@@ -105,6 +106,7 @@ button:hover {
 	color: #BDBDBD;
 	font-family: Lato;
 	font-weight: bold;
+	margin-bottom: 30px;
 }
 
 .services h3 {
@@ -170,20 +172,97 @@ button:hover {
 .clients {
 	height: 630%;
 	background-color: #EBEBEB;
+	padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .reviews {
 	height: 900%;
+	padding-top: 140px;
+    padding-bottom: 140px;
 }
 
 .contacts {
 	height: 623%;
+	padding-top: 122px;
+	padding-bottom: 160px;
+	background: url(../img/contacts.png) no-repeat;
+}
+
+.contacts .text {
+	padding-right: 30px;
+}
+
+.contacts h3,
+.contacts p,
+.contacts span,
+.contacts form {
+	color: #FFF;
+}
+
+.contacts h3 {
+	margin-bottom: 60px;
+}
+
+.contacts p {
+	font-size: 18px;
+	font-weight: 300;
+	line-height: 25px;
+	margin-bottom: 80px;
+}
+
+.contacts img {
+	height: 30px;
+	margin-right: 10px;
+	width: 14%;
+}
+
+.contacts label {
+	font-size: 16px;
+}
+
+.contacts input,
+.contacts textarea {
+	background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #FFF;
+    padding: 0;
+    border-radius: 0;
+}
+
+.contacts input::placeholder,
+.contacts textarea{
+	color: #BDBDBD;
+}
+
+.textarea {
+	margin-top: 35px;
+}
+
+.textarea textarea {
+	width: 100%;
+}
+
+.contacts button {
+	float: right;
+	margin-top: 50px;
 }
 
 footer {
 	height: 110%;
 }
 
+footer .container {
+	padding-bottom: 40px;
+}
+
+footer p {
+	font-size: 14px;
+}
+
+footer .development {
+	float: right;
+}
 
 
 
@@ -203,9 +282,30 @@ footer {
 		padding-top: 50px;
 		padding-bottom: 50px;
 	}
+
 	.services img {
 		width: 239px;
     padding-bottom: 17px;
+	}
+
+	.contacts {
+		padding-top: 30px;
+	}
+	.contacts h3 {
+		font-size: 42px;
+		margin-bottom: 37px;
+	}
+
+	.contacts p {
+		margin-bottom: 34px;
+	}
+
+	.contacts button {
+		margin-top: 15px;
+	}
+
+	form {
+		padding-top: 30px;
 	}
 }
 
